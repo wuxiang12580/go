@@ -14,5 +14,7 @@ func init() {
 	beego.Router("/test/index", &controllers.TestController{},"*:Index")
 	beego.Router("/api/list", &controllers.TestController{}, "*:List")
 
-	beego.Router("/login", &admin.LoginController{},"*:Index")
+	beego.Router("/admin", &admin.AdminController{},"*:Index")
+	beego.Router("/login/index", &admin.LoginController{},"*:Index")
+	//beego.Router("/login/login", &admin.LoginController{},"*:Login")
 }
