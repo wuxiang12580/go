@@ -17,4 +17,6 @@ func init() {
 	beego.Router("/admin", &admin.AdminController{},"*:Index")
 	beego.Router("/login/index", &admin.LoginController{},"*:Index")
 	beego.Router("/login/login", &admin.LoginController{},"*:Login")
+	beego.Router("/login/logout", &admin.LoginController{},"*:Logout")
+	beego.Router("/index/index", &admin.IndexController{},"*:Index")
 }

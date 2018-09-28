@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0ceb776-f161-4525-999d-384ead205aa9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/project/admin/index.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/views/admin/common/foot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/views/admin/common/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/views/admin/common/left.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/views/admin/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/project.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/project.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/admin/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/admin/login.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/models/use.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/models/use.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/project.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/project.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/views/admin/index/index.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/views/admin/index/index.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/views/admin/login/index.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/views/admin/login/index.tpl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,35 +26,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/admin/admin.go">
+      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/views/admin/layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/admin/index.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              <folding>
-                <element signature="e#15#60#0" expanded="true" />
-              </folding>
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/project/views/admin/login/index.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/controllers/default.go">
+      <file leaf-file-name="login.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/project/admin/login.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#21#59#0" expanded="true" />
-              </folding>
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/views/admin/common/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="305" column="40" selection-start-line="305" selection-start-column="40" selection-end-line="305" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -54,19 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/project/routers/router.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/admin/login.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding>
-                <element signature="e#15#60#0" expanded="true" />
-              </folding>
+              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -85,9 +85,12 @@
       <find>query</find>
       <find>g</find>
       <find>Please Enter Your Information</find>
+      <find>assets/js</find>
+      <find>assets/avatars</find>
     </findStrings>
     <replaceStrings>
       <replace>/static/js</replace>
+      <replace>/static/avatars</replace>
     </replaceStrings>
   </component>
   <component name="GOROOT" path="D:\Go" />
@@ -112,14 +115,21 @@
         <option value="$PROJECT_DIR$/src/project/conf/app.conf" />
         <option value="$PROJECT_DIR$/src/project/controllers/test.go" />
         <option value="$PROJECT_DIR$/src/project/views/test/index.tpl" />
-        <option value="$PROJECT_DIR$/src/project/models/use.go" />
-        <option value="$PROJECT_DIR$/src/project/main.go" />
         <option value="$PROJECT_DIR$/src/project/controllers/user.go" />
-        <option value="$PROJECT_DIR$/src/project/admin/index.go" />
         <option value="$PROJECT_DIR$/src/project/admin/admin.go" />
-        <option value="$PROJECT_DIR$/src/project/routers/router.go" />
-        <option value="$PROJECT_DIR$/src/project/admin/login.go" />
         <option value="$PROJECT_DIR$/src/project/views/admin/login/index.tpl" />
+        <option value="$PROJECT_DIR$/src/project/main.go" />
+        <option value="$PROJECT_DIR$/src/project/models/use.go" />
+        <option value="$PROJECT_DIR$/src/project/views/admin/common/header.tpl" />
+        <option value="$PROJECT_DIR$/src/project/views/admin/layout.tpl" />
+        <option value="$PROJECT_DIR$/src/project/admin/index.go" />
+        <option value="$PROJECT_DIR$/src/project/views/admin/common/left.html" />
+        <option value="$PROJECT_DIR$/src/project/views/admin/common/foot.html" />
+        <option value="$PROJECT_DIR$/src/project/views/admin/index/index.tpl" />
+        <option value="$PROJECT_DIR$/src/project/views/admin/layout.html" />
+        <option value="$PROJECT_DIR$/src/project/routers/router.go" />
+        <option value="$PROJECT_DIR$/src/project/views/admin/common/header.html" />
+        <option value="$PROJECT_DIR$/src/project/admin/login.go" />
       </list>
     </option>
   </component>
@@ -174,13 +184,6 @@
               <item name="gostudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gostudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gostudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="routers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -205,7 +208,7 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,7 +249,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32996634" />
       <window_info anchor="right" id="Database" order="3" />
@@ -254,7 +257,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33225107" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38852814" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -493,24 +496,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/conf/app.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/models/use.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -537,9 +526,6 @@
     <entry file="file://$PROJECT_DIR$/src/project/static/js/markdown/markdown.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/views/admin/index/index.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/views/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -547,30 +533,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/admin/admin.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#15#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/routers/router.go">
+    <entry file="file://$PROJECT_DIR$/src/project/models/use.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/admin/login.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#15#60#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -586,8 +572,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/views/admin/login/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="354">
+          <caret line="81" column="135" selection-start-line="81" selection-start-column="127" selection-end-line="81" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/views/admin/common/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="329" column="21" selection-start-line="329" selection-start-column="21" selection-end-line="329" selection-end-column="21" />
+          <folding>
+            <element signature="e#2104#2109#0#HTML" expanded="true" />
+            <element signature="e#4785#4790#0#HTML" expanded="true" />
+            <element signature="e#5724#5729#0#HTML" expanded="true" />
+            <element signature="e#8397#8402#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/views/admin/common/foot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6024">
+          <caret line="251" column="7" selection-start-line="251" selection-start-column="7" selection-end-line="251" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/views/admin/index/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/views/admin/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/admin/index.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/views/admin/common/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="305" column="40" selection-start-line="305" selection-start-column="40" selection-end-line="305" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/admin/login.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
