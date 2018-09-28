@@ -2,108 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0ceb776-f161-4525-999d-384ead205aa9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/project/admin/admin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/avatars/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/avatars/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/avatars/avatar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/avatars/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/avatars/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/avatars/avatar4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/avatars/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/avatars/profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/avatars/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/ace-ie.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/ace-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/ace-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/ace.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/bootstrap-editable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/bootstrap-timepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/chosen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/colorbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/colorpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/daterangepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/font-awesome-ie7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/images/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/jquery-ui-1.10.3.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/jquery-ui-1.10.3.full.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/jquery.gritter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/css/ui.jqgrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/images/gallery/image-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/images/gallery/image-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/images/gallery/image-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/images/gallery/image-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/images/gallery/image-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/images/gallery/image-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/images/gallery/thumb-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/images/gallery/thumb-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/images/gallery/thumb-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/images/gallery/thumb-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/images/gallery/thumb-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/images/gallery/thumb-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/ace-elements.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/ace-extra.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/ace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/bootbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/bootstrap-colorpicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/bootstrap-tag.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/bootstrap-wysiwyg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/chosen.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/date-time/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/date-time/bootstrap-timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/date-time/daterangepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/date-time/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/flot/jquery.flot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/flot/jquery.flot.pie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/flot/jquery.flot.resize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/fuelux/data/fuelux.tree-sampledata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/fuelux/fuelux.spinner.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/fuelux/fuelux.tree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/fuelux/fuelux.wizard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jqGrid/i18n/grid.locale-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jqGrid/jquery.jqGrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery-2.0.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery-ui-1.10.3.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery-ui-1.10.3.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.autosize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.colorbox-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.easy-pie-chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.gritter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.hotkeys.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.inputlimiter.1.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.knob.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.maskedinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.mobile.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.nestable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.ui.touch-punch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/markdown/bootstrap-markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/markdown/markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/typeahead-bs2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/x-editable/ace-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/static/js/x-editable/bootstrap-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/views/admin/index/index.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/project.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/project.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/admin/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/admin/login.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/project.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/project.exe" afterDir="false" />
@@ -131,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/project/views/admin/login/index.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="70" column="70" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
+            <state relative-caret-position="426">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -152,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project/routers/router.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -164,8 +62,8 @@
       <file leaf-file-name="login.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project/admin/login.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="384">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="e#15#60#0" expanded="true" />
               </folding>
@@ -219,9 +117,9 @@
         <option value="$PROJECT_DIR$/src/project/controllers/user.go" />
         <option value="$PROJECT_DIR$/src/project/admin/index.go" />
         <option value="$PROJECT_DIR$/src/project/admin/admin.go" />
-        <option value="$PROJECT_DIR$/src/project/views/admin/login/index.tpl" />
-        <option value="$PROJECT_DIR$/src/project/admin/login.go" />
         <option value="$PROJECT_DIR$/src/project/routers/router.go" />
+        <option value="$PROJECT_DIR$/src/project/admin/login.go" />
+        <option value="$PROJECT_DIR$/src/project/views/admin/login/index.tpl" />
       </list>
     </option>
   </component>
@@ -348,7 +246,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32996634" />
       <window_info anchor="right" id="Database" order="3" />
@@ -356,7 +254,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33225107" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33225107" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -649,10 +547,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/views/admin/login/index.tpl">
+    <entry file="file://$PROJECT_DIR$/src/project/admin/admin.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="70" column="70" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
+        <state relative-caret-position="240">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/admin/login.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -666,30 +584,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/admin/admin.go">
+    <entry file="file://$PROJECT_DIR$/src/project/views/admin/login/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="e#15#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/admin/login.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="e#15#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="426">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>

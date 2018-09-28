@@ -87,10 +87,7 @@
 													<div class="space"></div>
 
 													<div class="clearfix">
-														<button type="button" class="width-35 pull-right btn btn-sm btn-primary">
-															<i class="icon-key"></i>
-															登录
-														</button>
+													    <input type="submit" class="width-35 pull-right btn btn-sm btn-primary" value="登录">
 													</div>
 													<div class="space-4"></div>
 												</fieldset>
