@@ -12,9 +12,14 @@ type IndexController struct {
 
 func (c *IndexController) Index()  {
 	sess := c.StartSession()
-	sessionValue := sess.Get("uid")
-	uid := sessionValue.(int)
-	userInfo,err := models.GetUserInfoById(uid)
+	sessionUid := sess.Get("uid")
+	if sessionUid==nil{
+		return
+	}
+	var user models.User
+	user.Id = sessionUid.(int)
+
+	userInfo,err := models.GetUserInfoById(user.Id)
 	if err!=nil{
 		fmt.Println("用户不存在")
 	}

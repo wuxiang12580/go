@@ -29,11 +29,7 @@ try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
 <div class="page-content">
 <div class="page-header">
 <h1>
-Tables
-<small>
-<i class="icon-double-angle-right"></i>
-Static &amp; Dynamic Tables
-</small>
+<a href="/user/add" target="_blank" class="btn btn-sm btn-danger">添加</a>
 </h1>
 </div><!-- /.page-header -->
 
