@@ -14,7 +14,7 @@ func (c *IndexController) Index()  {
 	sess := c.StartSession()
 	sessionUid := sess.Get("uid")
 	if sessionUid==nil{
-		return
+		c.Redirect("/login/index", 302)
 	}
 	var user models.User
 	user.Id = sessionUid.(int)

@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0ceb776-f161-4525-999d-384ead205aa9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/project/views/admin/user/add.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/project.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/project.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/admin/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/admin/index.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/admin/use.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/admin/use.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/project.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/project.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/routers/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/views/admin/user/index.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/views/admin/user/index.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/views/admin/user/add.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/views/admin/user/add.tpl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,11 +46,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.tpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="add.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project/views/admin/user/add.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28440">
-              <caret line="1185" column="26" lean-forward="true" selection-start-line="1185" selection-start-column="26" selection-end-line="1185" selection-end-column="26" />
+            <state relative-caret-position="324">
+              <caret line="163" column="4" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/admin/index.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/project/admin/login.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -76,6 +90,7 @@
       <find>assets/js</find>
       <find>assets/avatars</find>
       <find>jason</find>
+      <find>row</find>
       <find>Tables</find>
     </findStrings>
     <replaceStrings>
@@ -118,11 +133,11 @@
         <option value="$PROJECT_DIR$/src/project/views/admin/common/header.html" />
         <option value="$PROJECT_DIR$/src/project/views/admin/index/index.tpl" />
         <option value="$PROJECT_DIR$/src/project/views/admin/common/foot.html" />
-        <option value="$PROJECT_DIR$/src/project/admin/index.go" />
         <option value="$PROJECT_DIR$/src/project/routers/router.go" />
         <option value="$PROJECT_DIR$/src/project/views/admin/user/index.tpl" />
         <option value="$PROJECT_DIR$/src/project/admin/use.go" />
         <option value="$PROJECT_DIR$/src/project/views/admin/user/add.tpl" />
+        <option value="$PROJECT_DIR$/src/project/admin/index.go" />
       </list>
     </option>
   </component>
@@ -193,15 +208,6 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gostudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gostudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -605,31 +611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/admin/login.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/admin/index.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/routers/router.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/views/admin/user/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -645,8 +630,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/views/admin/user/add.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28440">
-          <caret line="1185" column="26" lean-forward="true" selection-start-line="1185" selection-start-column="26" selection-end-line="1185" selection-end-column="26" />
+        <state relative-caret-position="324">
+          <caret line="163" column="4" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/views/admin/user/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/admin/index.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/admin/login.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
