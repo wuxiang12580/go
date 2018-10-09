@@ -68,7 +68,7 @@
 
 											<div class="space-6"></div>
 
-											<form action="/login/login" method="post">
+											<form action="/home/dologin" method="post">
 												<fieldset>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
