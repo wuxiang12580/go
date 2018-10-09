@@ -29,10 +29,10 @@
     <div class="page-content">
         <div class="page-header">
             <h1>
-                Form Elements
+                用户管理
                 <small>
                     <i class="icon-double-angle-right"></i>
-                    Common form elements and layouts
+                    添加
                 </small>
             </h1>
         </div><!-- /.page-header -->
@@ -43,103 +43,22 @@
 
                 <form class="form-horizontal" role="form">
                     <div class="form-group">
-                        <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Text Field </label>
-
+                        <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户名 </label>
                         <div class="col-sm-9">
-                            <input type="text" id="form-field-1" placeholder="Username" class="col-xs-10 col-sm-5">
+                            <input type="text" id="form-field-1" placeholder="Username" class="col-xs-10 col-sm-5" name="name">
+                            <span class="help-inline col-xs-12 col-sm-7 red hidden">
+                              <span class="middle">用户名不能为空</span>
+                         </span>
                         </div>
                     </div>
-
                     <div class="space-4"></div>
-
                     <div class="form-group">
-                        <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> Password Field </label>
-
+                        <label class="col-sm-3 control-label no-padding-right" for="form-field-2">密码</label>
                         <div class="col-sm-9">
-                            <input type="password" id="form-field-2" placeholder="Password" class="col-xs-10 col-sm-5">
-                            <span class="help-inline col-xs-12 col-sm-7">
-                                <span class="middle">Inline help text</span>
+                            <input type="password" id="form-field-2" placeholder="Password" class="col-xs-10 col-sm-5" name="password">
+                            <span class="help-inline col-xs-12 col-sm-7 red hidden">
+                                <span class="middle">密码不能为空</span>
                             </span>
-                        </div>
-                    </div>
-
-                    <div class="space-4"></div>
-
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> Readonly field </label>
-
-                        <div class="col-sm-9">
-                            <input readonly="" type="text" class="col-xs-10 col-sm-5" id="form-input-readonly" value="This text field is readonly!">
-                            <span class="help-inline col-xs-12 col-sm-7">
-                                <label class="middle">
-                                    <input class="ace" type="checkbox" id="id-disable-check">
-                                    <span class="lbl"> Disable it!</span>
-                                </label>
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="space-4"></div>
-
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label no-padding-right" for="form-field-4">Relative Sizing</label>
-
-                        <div class="col-sm-9">
-                            <input class="input-sm" type="text" id="form-field-4" placeholder=".input-sm">
-                            <div class="space-2"></div>
-
-                            <div class="help-block ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="input-size-slider" aria-disabled="false" style="width: 200px;"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 0%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a></div>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label no-padding-right" for="form-field-5">Grid Sizing</label>
-
-                        <div class="col-sm-9">
-                            <div class="clearfix">
-                                <input class="col-xs-1" type="text" id="form-field-5" placeholder=".col-xs-1">
-                            </div>
-
-                            <div class="space-2"></div>
-
-                            <div class="help-block ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="input-span-slider" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 0%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a></div>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label no-padding-right">Input with Icon</label>
-
-                        <div class="col-sm-9">
-                            <span class="input-icon">
-                                <input type="text" id="form-field-icon-1">
-                                <i class="icon-leaf blue"></i>
-                            </span>
-
-                            <span class="input-icon input-icon-right">
-                                <input type="text" id="form-field-icon-2">
-                                <i class="icon-leaf green"></i>
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="space-4"></div>
-
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label no-padding-right" for="form-field-6">Tooltip and help button</label>
-
-                        <div class="col-sm-9">
-                            <input data-rel="tooltip" type="text" id="form-field-6" placeholder="Tooltip on hover" title="" data-placement="bottom" data-original-title="Hello Tooltip!">
-                            <span class="help-button" data-rel="popover" data-trigger="hover" data-placement="left" data-content="More details." title="" data-original-title="Popover on hover">?</span>
-                        </div>
-                    </div>
-
-                    <div class="space-4"></div>
-
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label no-padding-right" for="form-field-tags">Tag input</label>
-
-                        <div class="col-sm-9"><div class="tags"><span class="tag">Tag Input Control<button type="button" class="close">×</button></span><input type="text" name="tags" id="form-field-tags" value="Tag Input Control" placeholder="Enter tags ..." style="display: none;"><input type="text" placeholder="Enter tags ..."></div>
-
                         </div>
                     </div>
 
@@ -163,3 +82,9 @@
         </div>
     </div><!-- /.page-content -->
 </div>
+
+<script type="text/javascript">
+    $(function(){
+        alert(1111);
+    })
+</script>
