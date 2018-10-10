@@ -5,7 +5,6 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/utils/pagination"
 	"project/models"
-	"fmt"
 )
 
 type UserController struct {
@@ -39,10 +38,11 @@ func (c *UserController) Index()  {
 	countArticle := models.CountArticle(condArr)
 
 	paginator := pagination.SetPaginator(c.Ctx, offset, countArticle)
-	_, _, art := models.ListArticle(condArr, page, offset)
+	_, _, list := models.ListArticle(condArr, page, offset)
 
 	c.Data["paginator"] = paginator
-	c.Data["art"] = art
+	c.Data["list"] = list
+	c.Data["count"] = countArticle
 
 	c.setTpl("admin/user/index.html","admin/layout.html")
 }

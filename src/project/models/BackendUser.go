@@ -61,6 +61,26 @@ func CountArticle(data map[string]string) int64  {
 }
 
 //获取列表
-func ListArticle(data map[string]string,page,offset int64) (num int64, err error, art []BackendUser) {
+func ListArticle(data map[string]string,page,offset int) (num int64, err error, art []BackendUser) {
+	o := orm.NewOrm()
+	qs := o.QueryTable(BackendUserTBName())
+	con := orm.NewCondition()
+	if data["title"] != "" {
+		con = con.And("UserName", data["title"])
+	}
+	if data["keywords"] != "" {
+		con = con.Or("Mobile", data["keywords"])
+	}
+	qs = qs.SetCond(con)
 
+	if page < 1 {
+		page = 1
+	}
+	if offset < 1 {
+		offset = 10
+	}
+	start := (page - 1) * offset
+	var backendUser []BackendUser
+	num, err1 := qs.Limit(offset, start).All(&backendUser)
+	return num, err1, backendUser
 }
