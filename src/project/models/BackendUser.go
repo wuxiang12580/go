@@ -42,3 +42,25 @@ func GetUserInfoByUserId(id int)(*BackendUser,error)  {
 	}
 	return &m,err
 }
+
+//获取用户总数
+func CountArticle(data map[string]string) int64  {
+	o := orm.NewOrm()
+	qs := o.QueryTable(BackendUserTBName())
+	con := orm.NewCondition()
+	if data["title"] != "" {
+		con = con.And("UserName",data["title"])
+	}
+
+	if data["keywords"] != "" {
+		con = con.And("Mobile",data["keywords"])
+	}
+
+	num, _ := qs.SetCond(con).Count()
+	return num
+}
+
+//获取列表
+func ListArticle(data map[string]string,page,offset int64) (num int64, err error, art []BackendUser) {
+
+}

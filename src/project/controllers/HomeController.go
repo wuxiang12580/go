@@ -13,6 +13,7 @@ type HomeController struct {
 func (c *HomeController) Index()  {
 	//判断是否登录
 	c.checkLogin()
+	c.adapterUserInfo()
 	c.setTpl("admin/home/index.html","admin/layout.html")
 }
 
@@ -35,7 +36,8 @@ func (c *HomeController) DoLogin()  {
 		//保存用户信息到session
 		c.setBackendUser2Session(user.Id)
 		//获取用户信息
-		c.jsonResult(4, "登录成功", "")
+		//c.jsonResult(4, "登录成功", "")
+		c.redirect("index")
 	} else {
 		c.jsonResult(3, "用户名或者密码错误", "")
 	}
@@ -45,5 +47,5 @@ func (c *HomeController) DoLogin()  {
 func (c *HomeController) Logout() {
 	user := models.BackendUser{}
 	c.SetSession("backenduser", user)
-	c.pageLogin()
+	c.redirect("login")
 }

@@ -15,7 +15,7 @@ type BaseController struct {
 
 func (c *BaseController) Prepare() {
 	//附值
-	c.controllerName, c.actionName = c.GetControllerAndAction()
+	//c.controllerName, c.actionName = c.GetControllerAndAction()
 	//从Session里获取数据 设置用户信息
 	c.adapterUserInfo()
 }
@@ -33,16 +33,16 @@ func (c *BaseController) adapterUserInfo() {
 func (c *BaseController) checkLogin()  {
 	if c.curUser.Id == 0 {
 		//登录地址页面
-		urlstr := c.URLFor("HomeController.Login") + "?url="
+		urlstr := c.URLFor("HomeController.Login")
 		//登陆成功后，返回当前地址
-		returnURL := c.Ctx.Request.URL.Path
+		//returnURL := c.Ctx.Request.URL.Path
 		//如果ajax请求则返回相应的错码和跳转的地址
 		if c.Ctx.Input.IsAjax() {
 			//由于是ajax请求，因此地址是header里的Referer
 			returnURL := c.Ctx.Input.Refer()
 			c.jsonResult(302, "请登录", urlstr+returnURL)
 		}
-		c.Redirect(urlstr+returnURL, 302)
+		c.Redirect(urlstr, 302)
 		c.StopRun()
 	}
 }
@@ -85,9 +85,15 @@ func (c *BaseController)setBackendUser2Session(userId int) error  {
 	return nil
 }
 
-// 重定向 去登录页
-func (c *BaseController) pageLogin() {
-	url := c.URLFor("HomeController.Login")
+//// 重定向
+//func (c *BaseController) pageUrl(template string) {
+//	url := c.URLFor(template)
+//	c.Redirect(url, 302)
+//	c.StopRun()
+//}
+
+// 重定向
+func (c *BaseController) redirect(url string) {
 	c.Redirect(url, 302)
 	c.StopRun()
 }
