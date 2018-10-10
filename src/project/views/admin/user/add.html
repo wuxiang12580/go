@@ -47,7 +47,7 @@
                         <div class="col-sm-9">
                             <input type="text" id="form-field-1" placeholder="用户名" class="col-xs-10 col-sm-5" name="name">
                             <span class="help-inline col-xs-12 col-sm-7 red">
-                              <span class="name"><i class="hidden">用户名不能为空</i></span>
+                              <span class="name"><i class="hidden"></i></span>
                             </span>
                         </div>
                     </div>
@@ -107,11 +107,13 @@
         $(".submitUser").click(function () {
             var name = $.trim($("input[name='name']").val());
             if(name==""){
-                $(".name").find("i").removeClass().addClass("block");
+                $(".name").find("i").removeClass().addClass("block").text("用户名不能为空");
                 return false
             }else{
                 $(".name").find("i").removeClass().addClass("hidden");
             }
+
+            
         })
     })
 </script>
