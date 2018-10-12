@@ -5,6 +5,7 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/utils/pagination"
 	"project/models"
+	"project/util"
 )
 
 type UserController struct {
@@ -47,6 +48,24 @@ func (c *UserController) Index()  {
 	c.setTpl("admin/user/index.html","admin/layout.html")
 }
 
+//添加页面
 func (c *UserController) Add()  {
 	c.setTpl("admin/user/add.html","admin/layout.html")
+}
+
+//添加操作
+func (c *UserController) AddHandle()  {
+	name := strings.TrimSpace(c.GetString("name"))
+	password := strings.TrimSpace(c.GetString("password"))
+	phone := strings.TrimSpace(c.GetString("phone"))
+	email := strings.TrimSpace(c.GetString("email"))
+
+	password = util.Str2md5(password)
+
+	num := models.AddUser(name,password,phone,email)
+	if num>0 {
+		c.jsonResult(0,"添加成功","")
+	}else{
+		c.jsonResult(1,"添加成功","")
+	}
 }

@@ -31,6 +31,7 @@ func init() {
 	//用户管理
 	beego.Router("/user/index",&controllers.UserController{},"*:Index")
 	beego.Router("/user/add",&controllers.UserController{},"*:Add")
+	beego.Router("/user/addhandle",&controllers.UserController{},"*:AddHandle")
 
 	//用户中心管理
 	beego.Router("/usercenter/index",&controllers.UserCenterController{},"*:Index")

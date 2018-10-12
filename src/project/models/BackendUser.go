@@ -84,3 +84,22 @@ func ListArticle(data map[string]string,page,offset int) (num int64, err error, 
 	num, err1 := qs.Limit(offset, start).All(&backendUser)
 	return num, err1, backendUser
 }
+
+//添加
+func AddUser(name,password,phone,email string)(num int64)  {
+	o := orm.NewOrm()
+	user := BackendUser{}
+	user.UserName = name
+	user.UserPwd = password
+	if phone!="" {
+		user.Mobile = phone
+	}
+	if email!="" {
+		user.Email = email
+	}
+	num, err := o.Insert(&user)
+	if err!=nil {
+		return
+	}
+	return num
+}
